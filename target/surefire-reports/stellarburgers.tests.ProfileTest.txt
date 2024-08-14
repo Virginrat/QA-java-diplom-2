@@ -1,0 +1,103 @@
+-------------------------------------------------------------------------------
+Test set: stellarburgers.tests.ProfileTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 73.602 s <<< FAILURE! - in stellarburgers.tests.ProfileTest
+checkGoToMainPageByLogoTest(stellarburgers.tests.ProfileTest)  Time elapsed: 58.508 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 127.0.6533.100 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mkuznetsova-2', ip: 'fe80:0:0:0:44b:5b69:d969:c0b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5.1', java.version: '22.0.1'
+Driver info: driver.version: SelenideDriver
+selenide.url: https://stellarburgers.nomoreparties.site
+selenide.baseUrl: http://localhost:8080
+remote stacktrace: 0   chromedriver                        0x0000000100d246b8 chromedriver + 4937400
+1   chromedriver                        0x0000000100d1bb73 chromedriver + 4901747
+2   chromedriver                        0x00000001008d9616 chromedriver + 435734
+3   chromedriver                        0x000000010090bd10 chromedriver + 642320
+4   chromedriver                        0x000000010090718a chromedriver + 622986
+5   chromedriver                        0x000000010090367c chromedriver + 607868
+6   chromedriver                        0x000000010094aa08 chromedriver + 899592
+7   chromedriver                        0x0000000100949ebf chromedriver + 896703
+8   chromedriver                        0x0000000100940de3 chromedriver + 859619
+9   chromedriver                        0x000000010090ed7f chromedriver + 654719
+10  chromedriver                        0x00000001009100de chromedriver + 659678
+11  chromedriver                        0x0000000100ce02ad chromedriver + 4657837
+12  chromedriver                        0x0000000100ce5130 chromedriver + 4677936
+13  chromedriver                        0x0000000100cebdef chromedriver + 4705775
+14  chromedriver                        0x0000000100ce605a chromedriver + 4681818
+15  chromedriver                        0x0000000100cb892c chromedriver + 4495660
+16  chromedriver                        0x0000000100d03838 chromedriver + 4802616
+17  chromedriver                        0x0000000100d039b7 chromedriver + 4802999
+18  chromedriver                        0x0000000100d1499f chromedriver + 4872607
+19  libsystem_pthread.dylib             0x00007ff8164654e1 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff816460f6b thread_start + 15
+
+	at stellarburgers.tests.ProfileTest.checkGoToMainPageByLogoTest(ProfileTest.java:63)
+
+checkLogoutUserTest(stellarburgers.tests.ProfileTest)  Time elapsed: 7.778 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 127.0.6533.100 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mkuznetsova-2', ip: 'fe80:0:0:0:44b:5b69:d969:c0b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5.1', java.version: '22.0.1'
+Driver info: driver.version: SelenideDriver
+selenide.url: https://stellarburgers.nomoreparties.site
+selenide.baseUrl: http://localhost:8080
+remote stacktrace: 0   chromedriver                        0x0000000100b6b6b8 chromedriver + 4937400
+1   chromedriver                        0x0000000100b62b73 chromedriver + 4901747
+2   chromedriver                        0x0000000100720616 chromedriver + 435734
+3   chromedriver                        0x0000000100752d10 chromedriver + 642320
+4   chromedriver                        0x000000010074e18a chromedriver + 622986
+5   chromedriver                        0x000000010074a67c chromedriver + 607868
+6   chromedriver                        0x0000000100791a08 chromedriver + 899592
+7   chromedriver                        0x0000000100790ebf chromedriver + 896703
+8   chromedriver                        0x0000000100787de3 chromedriver + 859619
+9   chromedriver                        0x0000000100755d7f chromedriver + 654719
+10  chromedriver                        0x00000001007570de chromedriver + 659678
+11  chromedriver                        0x0000000100b272ad chromedriver + 4657837
+12  chromedriver                        0x0000000100b2c130 chromedriver + 4677936
+13  chromedriver                        0x0000000100b32def chromedriver + 4705775
+14  chromedriver                        0x0000000100b2d05a chromedriver + 4681818
+15  chromedriver                        0x0000000100aff92c chromedriver + 4495660
+16  chromedriver                        0x0000000100b4a838 chromedriver + 4802616
+17  chromedriver                        0x0000000100b4a9b7 chromedriver + 4802999
+18  chromedriver                        0x0000000100b5b99f chromedriver + 4872607
+19  libsystem_pthread.dylib             0x00007ff8164654e1 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff816460f6b thread_start + 15
+
+	at stellarburgers.tests.ProfileTest.checkLogoutUserTest(ProfileTest.java:39)
+
+checkGoToMainPageByConstructorButtonTest(stellarburgers.tests.ProfileTest)  Time elapsed: 7.163 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 127.0.6533.100 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'mkuznetsova-2', ip: 'fe80:0:0:0:44b:5b69:d969:c0b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5.1', java.version: '22.0.1'
+Driver info: driver.version: SelenideDriver
+selenide.url: https://stellarburgers.nomoreparties.site
+selenide.baseUrl: http://localhost:8080
+remote stacktrace: 0   chromedriver                        0x00000001051236b8 chromedriver + 4937400
+1   chromedriver                        0x000000010511ab73 chromedriver + 4901747
+2   chromedriver                        0x0000000104cd8616 chromedriver + 435734
+3   chromedriver                        0x0000000104d0ad10 chromedriver + 642320
+4   chromedriver                        0x0000000104d0618a chromedriver + 622986
+5   chromedriver                        0x0000000104d0267c chromedriver + 607868
+6   chromedriver                        0x0000000104d49a08 chromedriver + 899592
+7   chromedriver                        0x0000000104d48ebf chromedriver + 896703
+8   chromedriver                        0x0000000104d3fde3 chromedriver + 859619
+9   chromedriver                        0x0000000104d0dd7f chromedriver + 654719
+10  chromedriver                        0x0000000104d0f0de chromedriver + 659678
+11  chromedriver                        0x00000001050df2ad chromedriver + 4657837
+12  chromedriver                        0x00000001050e4130 chromedriver + 4677936
+13  chromedriver                        0x00000001050eadef chromedriver + 4705775
+14  chromedriver                        0x00000001050e505a chromedriver + 4681818
+15  chromedriver                        0x00000001050b792c chromedriver + 4495660
+16  chromedriver                        0x0000000105102838 chromedriver + 4802616
+17  chromedriver                        0x00000001051029b7 chromedriver + 4802999
+18  chromedriver                        0x000000010511399f chromedriver + 4872607
+19  libsystem_pthread.dylib             0x00007ff8164654e1 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff816460f6b thread_start + 15
+
+	at stellarburgers.tests.ProfileTest.checkGoToMainPageByConstructorButtonTest(ProfileTest.java:51)
+
